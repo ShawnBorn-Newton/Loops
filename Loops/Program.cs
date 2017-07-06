@@ -41,10 +41,21 @@ namespace Loops
             //Array.Reverse(storyWords);
             //for (int i = 0; i < storyWords.Length; i++)
             //    Console.WriteLine(storyWords[i]);
-            
 
-            for (int i = 1; i < 10; i++)
-                Console.WriteLine(i * i + i * i);
+            ////way 1
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //int product = numbers[0];
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    product = product * numbers[i];
+            //}
+            //Console.WriteLine(product);
+            int product = 1;
+                for(int i = 1; i <= 10; i++)
+            {
+                product = product * i;
+            }
+            Console.WriteLine(product);
         }
     }
 }
