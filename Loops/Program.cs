@@ -70,6 +70,15 @@ namespace Loops
             //    Console.WriteLine(band);
             //}
 
+            //while loops
+
+            //Console.WriteLine("What is your first name?");
+            //string firstName = Console.ReadLine();
+            //while(firstName.ToUpper() == "SHAWN")
+            //{
+            //    Console.WriteLine("Why me");
+            //    break;
+            //}
 
         }
     }
