@@ -10,6 +10,7 @@ namespace Loops
     {
         static void Main(string[] args)
         {
+            //for loops
             //string days = "Monday Tuesday Wendsday";
             //string[] theDay = days.Split();
             //for (int i = 0; i < theDay.Length; i++)
@@ -50,12 +51,25 @@ namespace Loops
             //    product = product * numbers[i];
             //}
             //Console.WriteLine(product);
-            int product = 1;
-                for(int i = 1; i <= 10; i++)
+            //int product = 1;
+            //    for(int i = 1; i <= 10; i++)
+            //{
+            //    product = product * i;
+            //}
+            //Console.WriteLine(product);
+
+            //foreach loops
+            //string[] theMonths = { "Jan", "Dog", "Mar", "Apr", "May", "Jun" };
+            //foreach(string month in theMonths)
+            //{
+            //    Console.WriteLine(month);
+            //}
+            string[] musicians = { "Tim", "Jim", "Him", "Nim" };
+            foreach(string band in musicians)
             {
-                product = product * i;
+                Console.WriteLine(band);
             }
-            Console.WriteLine(product);
+
         }
     }
 }
