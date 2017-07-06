@@ -10,15 +10,11 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            string[] days = { "Monday", "Tuesday", "Wendsday" };
+            //string days = "Monday Tuesday Wendsday";
+            //string[] theDay = days.Split();
+            //for (int i = 0; i < theDay.Length; i++)
+            //    Console.WriteLine(theDay[i]);
 
-            for (int i = days[0]; i > days.Length; i++)
-            {
-                {
-                    Console.WriteLine(i);
-                }//end if
-
-            }//end for
 
             //for(int i = 0; i <=10; i++)
             //{
@@ -33,7 +29,22 @@ namespace Loops
             //{
             //    Console.WriteLine(i);
             //}
+            //string greeting = "My name is Little Bill";
+            ////.Split splits a string into an array in the white space. 
+            //string[] wordsInGreeting = greeting.Split();
 
+            //for (int i = 0; i < wordsInGreeting.Length; i++) 
+            //Console.WriteLine(wordsInGreeting[i]);
+
+            //string firstLine = "Once upon a time";
+            //string[] storyWords = firstLine.Split();
+            //Array.Reverse(storyWords);
+            //for (int i = 0; i < storyWords.Length; i++)
+            //    Console.WriteLine(storyWords[i]);
+            
+
+            for (int i = 1; i < 10; i++)
+                Console.WriteLine(i * i + i * i);
         }
     }
 }
