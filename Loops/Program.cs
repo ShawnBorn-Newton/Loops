@@ -126,13 +126,15 @@ namespace Loops
             //    Console.WriteLine();
             //}
 
-            for (int rows = 1; rows <= 4; rows++)
-            {
-                for (int colums = 1; colums <= rows; colums++)
-                {
-                    Console.WriteLine(colums);
-                }
-             }
+            //for (int rows = 1; rows <= 4; rows++)
+            //{
+            //    for (int colums = 1; colums <= rows; colums++)
+            //    {
+            //        Console.Write(colums);
+            //    }
+            //    Console.WriteLine();
+            // }
+
         }
     }
 }
