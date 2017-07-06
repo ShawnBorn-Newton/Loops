@@ -64,11 +64,12 @@ namespace Loops
             //{
             //    Console.WriteLine(month);
             //}
-            string[] musicians = { "Tim", "Jim", "Him", "Nim" };
-            foreach(string band in musicians)
-            {
-                Console.WriteLine(band);
-            }
+            //string[] musicians = { "Tim", "Jim", "Him", "Nim" };
+            //foreach(string band in musicians)
+            //{
+            //    Console.WriteLine(band);
+            //}
+
 
         }
     }
