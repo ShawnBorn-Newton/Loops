@@ -135,6 +135,44 @@ namespace Loops
             //    Console.WriteLine();
             // }
 
+            //for(int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine("Hello World");
+            //}
+
+            //for(int i = 1; i <= 100;i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //string words = "I don't even";
+
+            //for(int i = 0; i < words.Length; i++)
+            //{
+            //    Console.WriteLine(words[i]);
+            //}
+            //Console.WriteLine("Please enter a phrase.");
+            //string phrase = Console.ReadLine();
+            //int vowelCount = 0;
+
+            //foreach (char letter in phrase)
+            //{
+            //    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+            //    {
+            //        vowelCount += 1;   
+            //    }       
+            //}
+            //Console.WriteLine(vowelCount);
+
+            Console.WriteLine("Number?");
+            int number = int.Parse(Console.ReadLine());
+            Console.WriteLine("How meny?");
+            int times = int.Parse(Console.ReadLine());
+
+            for(int i= 0; i < times; i++)
+            {
+                Console.Write(number);
+            }
         }
     }
 }
