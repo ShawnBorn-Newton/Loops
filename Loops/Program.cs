@@ -99,20 +99,40 @@ namespace Loops
             //}
             //while (playAgain.ToUpper() == "YES");
 
-            string classAdd;
-            string grade;
-            string doAgain;
-            do
+            //string classAdd;
+            //string grade;
+            //string doAgain;
+            //do
+            //{
+            //    Console.WriteLine("What class would you like to add to your GPA?");
+            //    classAdd = Console.ReadLine();
+            //    Console.WriteLine("What is the letter grade you got in that class? \nPlease no + or -");
+            //    grade = Console.ReadLine();
+            //    Console.WriteLine("Do you want to add another class?\nYES/NO");
+            //    doAgain = Console.ReadLine(); 
+            //}
+            //while (doAgain.ToUpper() == "YES");
+
+            //NESTED LOOPS
+            //the inner loop is exictued more than the outer loop.
+
+
+            //for (int rows = 1; rows <= 2; rows++)
+            //{
+            //    for (int colums = 1; colums <= 4; colums++)
+            //    {
+            //        Console.Write(colums);
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            for (int rows = 1; rows <= 4; rows++)
             {
-                Console.WriteLine("What class would you like to add to your GPA?");
-                classAdd = Console.ReadLine();
-                Console.WriteLine("What is the letter grade you got in that class? \nPlease no + or -");
-                grade = Console.ReadLine();
-                Console.WriteLine("Do you want to add another class?");
-                doAgain = Console.ReadLine(); 
-            }
-            while (doAgain.ToUpper() == "YES");
-           
+                for (int colums = 1; colums <= rows; colums++)
+                {
+                    Console.WriteLine(colums);
+                }
+             }
         }
     }
 }
