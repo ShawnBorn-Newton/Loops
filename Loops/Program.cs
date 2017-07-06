@@ -10,7 +10,7 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            //for loops
+            //FOR LOOPS
             //string days = "Monday Tuesday Wendsday";
             //string[] theDay = days.Split();
             //for (int i = 0; i < theDay.Length; i++)
@@ -58,7 +58,7 @@ namespace Loops
             //}
             //Console.WriteLine(product);
 
-            //foreach loops
+            //FOREACH LOOP
             //string[] theMonths = { "Jan", "Dog", "Mar", "Apr", "May", "Jun" };
             //foreach(string month in theMonths)
             //{
@@ -70,7 +70,7 @@ namespace Loops
             //    Console.WriteLine(band);
             //}
 
-            //while loops
+            //WHILE LOOPS
 
             //Console.WriteLine("What is your first name?");
             //string firstName = Console.ReadLine();
@@ -80,6 +80,39 @@ namespace Loops
             //    break;
             //}
 
+            //Console.WriteLine("Do you want to play the game? YES/NO");
+            //string playAgain = Console.ReadLine();
+            //while(playAgain.ToUpper() == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!\nDo you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+
+            //DOWHILE LOOPS
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Welcome to game!\n" + 
+            //        "Great Game!!\nDo you want to play again? YES/NO");
+            //    playAgain = Console.ReadLine();
+            //}
+            //while (playAgain.ToUpper() == "YES");
+
+            string classAdd;
+            string grade;
+            string doAgain;
+            do
+            {
+                Console.WriteLine("What class would you like to add to your GPA?");
+                classAdd = Console.ReadLine();
+                Console.WriteLine("What is the letter grade you got in that class? \nPlease no + or -");
+                grade = Console.ReadLine();
+                Console.WriteLine("Do you want to add another class?");
+                doAgain = Console.ReadLine(); 
+            }
+            while (doAgain.ToUpper() == "YES");
+           
         }
     }
 }
