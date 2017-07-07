@@ -181,24 +181,53 @@ namespace Loops
             //    Console.WriteLine("Your lucky number is " + luckyNumbers[i]);
             //}
 
-            Console.WriteLine("Would you like to check the patient in for their apointment? YES/NO");
-            string ansure = Console.ReadLine();
+            //Console.WriteLine("Would you like to check the patient in for their apointment? YES/NO");
+            //string ansure = Console.ReadLine();
+
+            //while(ansure.ToUpper() == "YES")
+            //{
+            //    Console.WriteLine("PATIENT CHECK IN SYSTEM\n" + 
+            //        "Please enter the patients full name.");
+            //    string fullName = Console.ReadLine();
+            //    Console.WriteLine("Please enter the patient's 6 digit ID number.");
+            //    int idNumber = int.Parse(Console.ReadLine());
+            //    Console.WriteLine("What time is the patients apointment?");
+            //    string time = Console.ReadLine();
+            //    Console.WriteLine(fullName + "'s apointment is checked in for " + time + " Thank you.");
+            //    Console.WriteLine("Would you like to check the patient in for their apointment? YES/NO");
+            //    ansure = Console.ReadLine();
+            //}
+
+            //// multipication
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    for (int j = 1; j <= 5; j++)
+            //    {
+            //        Console.Write(i * j + "\t");
+
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            //this will not work as a for, while is better
+            //Console.WriteLine("Please enter a whole number.");
+            //int userNum = int.Parse(Console.ReadLine());
+
+            //for (int i = userNum; i <= userNum; i++)
+            //{
+            //    if (i % 3 == 0) 
+            //    {
+            //        Console.WriteLine("You Win");
+            //        break;
+            //    }//if
             
-            while(ansure.ToUpper() == "YES")
-            {
-                Console.WriteLine("PATIENT CHECK IN SYSTEM\n" + 
-                    "Please enter the patients full name.");
-                string fullName = Console.ReadLine();
-                Console.WriteLine("Please enter the patient's 6 digit ID number.");
-                int idNumber = int.Parse(Console.ReadLine());
-                Console.WriteLine("What time is the patients apointment?");
-                string time = Console.ReadLine();
-                Console.WriteLine(fullName + "'s apointment is checked in for " + time + " Thank you.");
-                Console.WriteLine("Would you like to check the patient in for their apointment? YES/NO");
-                ansure = Console.ReadLine();
-            }
-            
-            
+            //else
+            //{
+            //        Console.WriteLine("You Lost!\nPlease enter another number");
+            //        userNum = int.Parse(Console.ReadLine());
+
+            //    }//else
+            //}//for
         }
     }
 }
