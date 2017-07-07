@@ -164,15 +164,41 @@ namespace Loops
             //}
             //Console.WriteLine(vowelCount);
 
-            Console.WriteLine("Number?");
-            int number = int.Parse(Console.ReadLine());
-            Console.WriteLine("How meny?");
-            int times = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Number?");
+            //int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("How meny?");
+            //int times = int.Parse(Console.ReadLine());
 
-            for(int i= 0; i < times; i++)
+            //for(int i= 0; i < times; i++)
+            //{
+            //    Console.Write(number);
+            //}
+
+            //int[] luckyNumbers = { 3, 4, 7, 34, 8 } ;
+
+            //for(int i = 0; i < luckyNumbers.Length; i++)
+            //{
+            //    Console.WriteLine("Your lucky number is " + luckyNumbers[i]);
+            //}
+
+            Console.WriteLine("Would you like to check the patient in for their apointment? YES/NO");
+            string ansure = Console.ReadLine();
+            
+            while(ansure.ToUpper() == "YES")
             {
-                Console.Write(number);
+                Console.WriteLine("PATIENT CHECK IN SYSTEM\n" + 
+                    "Please enter the patients full name.");
+                string fullName = Console.ReadLine();
+                Console.WriteLine("Please enter the patient's 6 digit ID number.");
+                int idNumber = int.Parse(Console.ReadLine());
+                Console.WriteLine("What time is the patients apointment?");
+                string time = Console.ReadLine();
+                Console.WriteLine(fullName + "'s apointment is checked in for " + time + " Thank you.");
+                Console.WriteLine("Would you like to check the patient in for their apointment? YES/NO");
+                ansure = Console.ReadLine();
             }
+            
+            
         }
     }
 }
